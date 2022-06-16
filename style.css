@@ -1,0 +1,132 @@
+.main{
+    margin: 50px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    justify-content:space-around;
+     align-items: center; 
+     border: 1px solid black;
+     width: 70%;
+     margin: auto;
+     height: 500px;
+     background-color: black;
+}
+
+.button1 a{
+    text-decoration: none;
+    border: 1px solid grey;
+    padding: 10px 10px 10px 17px ;
+    letter-spacing: 1em;
+    color: grey;
+}
+
+.button2 a{
+    text-decoration: none;
+    border: 1px solid grey;
+    padding: 10px 10px 10px 17px ;
+    letter-spacing: 1em;
+    color: grey;
+}
+
+.button3 a{
+    text-decoration: none;
+    border: 1px solid grey;
+    padding: 10px 10px 10px 17px ;
+    letter-spacing: 1em;
+    color: grey;
+}
+.button1 a:hover{
+    color: green;
+    border: 1px solid green;
+    box-shadow: 1px 1px 10px 3px green;
+    text-transform: uppercase;
+}
+
+.button2 a:hover{
+    color: yellow;
+    border: 1px solid yellow;
+    box-shadow: 1px 1px 10px 3px yellow;
+    text-transform: uppercase;
+}
+
+.button3 a:hover{
+    color: red;
+    border: 1px solid red;
+    box-shadow: 1px 1px 10px 3px red;
+    text-transform: uppercase;
+}
+.main .button1::before{
+    content: "";
+    position: relative;
+    top: 0;
+    left: 3px ;
+    width: 5px;
+   
+
+    border: 3px solid green;
+
+   
+}
+
+
+
+.main .button1::after{
+    content: "";
+    position: relative;
+    bottom: 0;
+    right: 3px;
+    height: 3px;
+    width: 3px;
+    border: 3px solid green;
+}
+
+
+.main .button2::before{
+    content: "";
+    position: relative;
+    top: 0;
+    left: 3px ;
+    width: 5px;
+    border: 3px solid yellow;
+
+   
+}
+
+
+
+.main .button2::after{
+    content: "";
+    position: relative;
+    bottom: 0;
+    right: 3px;
+    height: 3px;
+    width: 3px;
+    border: 3px solid yellow;
+}
+
+
+.main .button3::before{
+    content: "";
+    position: relative;
+    top: 0;
+    left: 3px ;
+    width: 5px;
+    border: 3px solid red;
+
+   
+}
+
+
+
+.main .button3::after{
+    content: "";
+    position: relative;
+    bottom: 0;
+    right: 3px;
+    height: 3px;
+    width: 3px;
+    border: 3px solid red;
+}
+
+
+
