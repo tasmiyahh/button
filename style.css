@@ -12,6 +12,21 @@
      background-color: black;
 }
 
+@media screen and (max-width: 600px) {
+    .main {
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        justify-content:space-around;
+         align-items: center; 
+         border: 1px solid black;
+         width: 90%;
+         margin: auto;
+         
+         background-color: black;
+    }
+    }
+  
 .button1 a{
     text-decoration: none;
     border: 1px solid grey;
@@ -40,6 +55,7 @@
     border: 1px solid green;
     box-shadow: 1px 1px 10px 3px green;
     text-transform: uppercase;
+
 }
 
 .button2 a:hover{
